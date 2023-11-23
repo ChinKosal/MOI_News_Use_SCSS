@@ -1,0 +1,73 @@
+@import "./variable.scss";
+@import "./font.scss";
+
+.navbar {
+    background-color: $danger-color;
+
+    &-container_navbar {
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+
+        .navbar_item {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            a {
+                font-size: 1.1rem;
+                padding: 15px 10px 15px 10px;
+                text-decoration: none;
+                @include font_Moul;
+                &:hover {
+                    color: $is_active;
+                }
+
+                transition: 0.1s ease-in-out;
+                li {
+                    list-style: none;
+                }
+            }
+            .active_item {
+                background-color: $white;
+                &-text_active {
+                    color: $is_active;
+                }
+            }
+            .last_item {
+                padding-right: 10px;
+                &:hover {
+                    .last_text_item,
+                    svg {
+                        color: $is_active;
+                    }
+                }
+            }
+            svg {
+                color: $white;
+            }
+            .box_item_drop {
+                top: 100%;
+                right: 0;
+                width: 230px;
+                height: auto;
+                overflow: hidden;
+                box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+
+                .item_drop {
+                    padding: 5px 10px;
+                    color: $black-color;
+                    font-size: 13px;
+                    transition: 0.2s ease-in-out;
+
+                    &:hover {
+                        cursor: pointer;
+                        margin-left: 5px;
+                        color: $is_active;
+                    }
+                }
+            }
+        }
+    }
+}
