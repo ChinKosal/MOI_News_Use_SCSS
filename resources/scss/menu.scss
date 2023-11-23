@@ -48,18 +48,20 @@
                 color: $white;
             }
             .box_item_drop {
+                position: absolute;
                 top: 100%;
                 right: 0;
-                width: 230px;
+                width: 240px;
                 height: auto;
                 overflow: hidden;
                 box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+                z-index: 99;
 
                 .item_drop {
-                    padding: 5px 10px;
+                    padding: 5px 15px;
                     color: $black-color;
-                    font-size: 13px;
-                    transition: 0.2s ease-in-out;
+                    font-size: 14px;
+                    transition: 0.1s ease-in-out;
 
                     &:hover {
                         cursor: pointer;

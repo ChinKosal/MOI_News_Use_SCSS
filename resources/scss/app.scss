@@ -6,9 +6,13 @@
 @import "./variable.scss";
 @import "./navbar.scss";
 @import "./menu.scss";
+@import "./sectiom_1.scss";
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    background-color: #f5f5f5;
 }
