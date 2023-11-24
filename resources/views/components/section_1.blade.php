@@ -13,16 +13,27 @@
                     <span class="from-neutral-500 ">ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣</span>
                 </div>
                 <div class="icon_change flex justify-center items-center gap-2 hover:cursor-pointer">
-                    <div class="icon_change-icon">
-                    </div>
-                    <div class="icon_change-icon">
-                    </div>
-                    <div class="icon_change-icon">
-                    </div>
-                    <div class="icon_change-icon">
-                    </div>
-                    <div class="icon_change-icon">
-                    </div>
+
+                    <button id="change" class="border-none bg-transparent">
+                        <div class="icon_change-icon">
+                        </div>
+                    </button>
+                    <button id="change" class="border-none bg-transparent">
+                        <div class="icon_change-icon">
+                        </div>
+                    </button>
+                    <button id="change" class="border-none bg-transparent">
+                        <div class="icon_change-icon">
+                        </div>
+                    </button>
+                    <button id="change" class="border-none bg-transparent">
+                        <div class="icon_change-icon">
+                        </div>
+                    </button>
+                    <button id="change" class="border-none bg-transparent">
+                        <div class="icon_change-icon">
+                        </div>
+                    </button>
                 </div>
             </div>
         </div>
@@ -170,3 +181,5 @@
         </div>
     </div>
 </section>
+
+
