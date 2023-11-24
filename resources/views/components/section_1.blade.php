@@ -12,25 +12,25 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 256 256"><path fill="currentColor" d="M208 36h-28V24a4 4 0 0 0-8 0v12H84V24a4 4 0 0 0-8 0v12H48a12 12 0 0 0-12 12v160a12 12 0 0 0 12 12h160a12 12 0 0 0 12-12V48a12 12 0 0 0-12-12ZM48 44h28v12a4 4 0 0 0 8 0V44h88v12a4 4 0 0 0 8 0V44h28a4 4 0 0 1 4 4v36H44V48a4 4 0 0 1 4-4Zm160 168H48a4 4 0 0 1-4-4V92h168v116a4 4 0 0 1-4 4Z"/></svg>
                     <span class="from-neutral-500 ">ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣</span>
                 </div>
-                <div class="icon_change flex justify-center items-center gap-2 hover:cursor-pointer">
+                <div class="icon_change flex justify-center items-center gap-2">
 
-                    <button id="change" class="border-none bg-transparent">
+                    <button id="change" class="border-none bg-transparent hover:cursor-pointer">
                         <div class="icon_change-icon">
                         </div>
                     </button>
-                    <button id="change" class="border-none bg-transparent">
+                    <button id="change" class="border-none bg-transparent hover:cursor-pointer">
                         <div class="icon_change-icon">
                         </div>
                     </button>
-                    <button id="change" class="border-none bg-transparent">
+                    <button id="change" class="border-none bg-transparent hover:cursor-pointer">
                         <div class="icon_change-icon">
                         </div>
                     </button>
-                    <button id="change" class="border-none bg-transparent">
+                    <button id="change" class="border-none bg-transparent hover:cursor-pointer">
                         <div class="icon_change-icon">
                         </div>
                     </button>
-                    <button id="change" class="border-none bg-transparent">
+                    <button id="change" class="border-none bg-transparent hover:cursor-pointer">
                         <div class="icon_change-icon">
                         </div>
                     </button>
