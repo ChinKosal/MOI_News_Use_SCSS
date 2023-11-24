@@ -3,7 +3,22 @@
 
 .navbar {
     background-color: $danger-color;
-
+    &-sticky {
+        z-index: 99999;
+        position: fixed !important;
+        top: 0;
+        animation: fadeIndown 1s ease-in-out;
+    }
+    @keyframes fadeIndown {
+        0% {
+            opacity: 0;
+            transform: translate3d(0, -100%, 0);
+        }
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+    }
     &-container_navbar {
         width: 70%;
         height: 100%;
@@ -16,7 +31,7 @@
             justify-content: space-between;
 
             a {
-                font-size: 1.1rem;
+                font-size: 1rem;
                 padding: 15px 20px;
                 text-decoration: none;
                 @include font_Moul;

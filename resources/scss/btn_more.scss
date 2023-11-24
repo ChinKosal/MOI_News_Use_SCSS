@@ -1,0 +1,36 @@
+@import "./variable.scss";
+@import "./font.scss";
+
+.btn_more {
+    height: auto;
+    margin: 0 auto;
+    &-btn {
+        border: none;
+        padding: 13px 10px;
+        border-radius: 3px;
+        background-color: $white;
+        box-shadow: rgba#0000001a 0 4px 12px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        transition: 0.2s all;
+
+        &:hover {
+            cursor: pointer;
+            gap: 5px;
+        }
+        .txt {
+            font-size: 16px;
+            @include font-katumruy;
+            font-weight: 500;
+            opacity: 0.7;
+            column-rule: $slightly-dark;
+        }
+        svg {
+            color: $root;
+            color: $slightly-dark;
+        }
+    }
+}

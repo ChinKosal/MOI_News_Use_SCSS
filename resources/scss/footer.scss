@@ -1,0 +1,215 @@
+@import "./font.scss";
+@import "./variable.scss";
+
+.full_footer1 {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: $is_active;
+
+    padding: 30px 0px 50px 0px;
+
+    &-container_footer1 {
+        width: 70%;
+        height: 100%;
+
+        margin: 0 auto;
+
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+
+        .box_left {
+            width: 40%;
+            height: 100%;
+
+            .title1 {
+                color: $white;
+                @include font_Hanuman;
+                font-weight: bold;
+                font-size: 22px;
+            }
+            .place {
+                padding-top: 10px;
+                color: $white;
+                @include font-label;
+                font-size: 1rem;
+            }
+            .message {
+                padding-top: 7px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 10px;
+
+                i {
+                    color: $white;
+                }
+                p {
+                    color: $white;
+                    @include font-label;
+                    font-size: 1rem;
+                }
+            }
+            .contact {
+                padding-top: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 10px;
+                i {
+                    color: $white;
+                }
+                p {
+                    color: $white;
+                    @include font-label;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .box_mit1 {
+            width: 15%;
+            height: 100%;
+
+            .title2 {
+                padding-bottom: 10px;
+                color: $white;
+                @include font_Hanuman;
+                font-weight: bold;
+                font-size: 22px;
+            }
+            .all_socail {
+                width: 100%;
+                height: 30px;
+                display: grid;
+                gap: 15px;
+                &-box_socail {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                    &:hover .cicle_socail {
+                        transform: scale(1.2);
+                    }
+
+                    .cicle_socail {
+                        width: 23px;
+                        height: 23px;
+                        border-radius: 50%;
+                        overflow: hidden;
+
+                        transition: 0.4s ease-in-out;
+
+                        .img {
+                            width: 100%;
+                            height: 100%;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+                p {
+                    color: $white;
+                    @include font-label;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .box_mit2 {
+            width: 15%;
+            height: 100%;
+            .title3 {
+                color: $white;
+                @include font_Hanuman;
+                font-weight: bold;
+                font-size: 22px;
+            }
+            &-all_download {
+                .ios {
+                    width: 150px;
+                    height: 60px;
+                    margin-top: 15px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .addriod {
+                    width: 150px;
+                    height: 50px;
+                    margin-top: 15px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        // object-fit: cover;
+                    }
+                }
+            }
+        }
+        .box_right {
+            width: 30%;
+            height: 100%;
+            padding: 0px 0px 0px 30px;
+            .title4 {
+                color: $white;
+                @include font_Hanuman;
+                font-weight: bold;
+                font-size: 22px;
+            }
+            .map_box {
+                margin-top: 10px;
+                width: 100%;
+                height: 200px;
+                border-radius: 5px;
+                overflow: hidden;
+
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+.full__footer2 {
+    margin-top: 2px;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    background-color: $is_active;
+
+    &-container_footer2 {
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+
+        .decription {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+
+            p {
+                color: $silver-color;
+                @include font-katumruy;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            i {
+                font-size: 19px;
+                color: $silver-color;
+            }
+        }
+    }
+}

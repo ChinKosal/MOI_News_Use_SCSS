@@ -10,7 +10,7 @@
         margin: 0 auto;
 
         .lefe_side {
-            width: 60%;
+            width: 65%;
             height: 100%;
             overflow: hidden;
             position: relative;
@@ -68,7 +68,7 @@
                 }
                 .icon_change {
                     position: absolute;
-                    bottom: 0;
+                    bottom: 4%;
                     width: 100%;
                     height: 40px;
                     z-index: 999;
@@ -99,7 +99,7 @@
 
         .right_side {
             position: relative;
-            width: 30%;
+            width: 35%;
             height: 100%;
             background-color: white;
             box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
