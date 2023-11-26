@@ -110,11 +110,6 @@
                         transition: 0.2s all;
                         &:hover {
                             cursor: pointer;
-                            background-color: $is_active;
-                        }
-                        &:hover .txt_share,
-                        svg {
-                            color: $white;
                         }
                         svg {
                             width: 22px;
