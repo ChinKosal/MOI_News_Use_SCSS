@@ -1,6 +1,7 @@
 // Get the button
 var mybutton = document.getElementById("myBtn");
 let menufixd = document.querySelector(".navbar");
+let headerfix = document.querySelector(".header");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -14,9 +15,11 @@ function scrollFunction() {
     ) {
         mybutton.style.display = "block";
         menufixd.classList.add("navbar-sticky");
+        headerfix.classList.add("header-sticky");
     } else {
         mybutton.style.display = "none";
         menufixd.classList.remove("navbar-sticky");
+        headerfix.classList.remove("header-sticky");
     }
 }
 

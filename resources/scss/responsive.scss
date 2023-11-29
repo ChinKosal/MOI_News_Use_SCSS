@@ -51,6 +51,9 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1200px) {
+    body {
+        overflow-x: hidden;
+    }
     .header {
         &-container_haeder {
             width: 100%;
@@ -109,7 +112,27 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        overflow-x: hidden;
+    }
     .header {
+        &-sticky {
+            z-index: 99999;
+            position: fixed !important;
+            top: 0;
+            animation: fadeIndown 1s ease-in-out;
+            box-shadow: 14px 14px 60px 0 rgb(80 20 173 / 6%);
+        }
+        @keyframes fadeIndown {
+            0% {
+                opacity: 0;
+                transform: translate3d(0, -100%, 0);
+            }
+            100% {
+                opacity: 1;
+                transform: none;
+            }
+        }
         &-container_haeder {
             width: 100%;
             padding: 0px 15px;
@@ -199,7 +222,27 @@
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        overflow-x: hidden;
+    }
     .header {
+        &-sticky {
+            z-index: 99999;
+            position: fixed !important;
+            top: 0;
+            animation: fadeIndown 1s ease-in-out;
+            box-shadow: 14px 14px 60px 0 rgb(80 20 173 / 6%);
+        }
+        @keyframes fadeIndown {
+            0% {
+                opacity: 0;
+                transform: translate3d(0, -100%, 0);
+            }
+            100% {
+                opacity: 1;
+                transform: none;
+            }
+        }
         &-container_haeder {
             width: 100%;
             padding: 0px 15px;
@@ -293,6 +336,23 @@
         overflow-x: hidden;
     }
     .header {
+        &-sticky {
+            z-index: 99999;
+            position: fixed !important;
+            top: 0;
+            animation: fadeIndown 1s ease-in-out;
+            box-shadow: 14px 14px 60px 0 rgb(80 20 173 / 6%);
+        }
+        @keyframes fadeIndown {
+            0% {
+                opacity: 0;
+                transform: translate3d(0, -100%, 0);
+            }
+            100% {
+                opacity: 1;
+                transform: none;
+            }
+        }
         &-container_haeder {
             width: 100%;
             padding: 0px 15px;
@@ -328,12 +388,17 @@
                     padding: 0px 0px;
                 }
                 &-image_title {
-                    background-image: none;
+                    padding: 0px 10px;
                     .description {
-                        display: none;
+                        padding-top: 60px;
+                        font-size: 16px;
+                        line-height: 23px;
                     }
                     .date {
-                        display: none;
+                        padding-top: 8px;
+                        span {
+                            font-size: 13px;
+                        }
                     }
                 }
             }
