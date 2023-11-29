@@ -154,6 +154,9 @@
                 }
             }
         }
+        &-toggle_bar {
+            display: block;
+        }
     }
     .navbar {
         display: none;
@@ -168,6 +171,11 @@
                 width: 100%;
                 &-image {
                     padding: 0px 6px;
+                }
+                &-image_title {
+                    .description {
+                        font-size: 21px;
+                    }
                 }
             }
             .right_side {
@@ -263,6 +271,9 @@
                     display: none;
                 }
             }
+        }
+        &-toggle_bar {
+            display: block;
         }
     }
     .navbar {
@@ -370,6 +381,9 @@
                     display: none;
                 }
             }
+        }
+        &-toggle_bar {
+            display: block;
         }
     }
     .navbar {
