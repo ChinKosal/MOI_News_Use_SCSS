@@ -41,6 +41,10 @@
                 height: 55%;
 
                 padding: 15px 15px 5px 15px;
+                &:hover a {
+                    text-decoration: underline;
+                    color: $is_active;
+                }
                 a {
                     text-decoration: none;
                 }
@@ -49,7 +53,7 @@
                     line-height: 28px;
                     @include font-katumruy;
                     text-decoration: none !important;
-                    color: $primary-color;
+                    color: $is_active;
                     font-weight: 500;
                     text-decoration: underline;
 
@@ -60,6 +64,8 @@
                     display: -webkit-box;
                     -webkit-box-orient: vertical;
                     word-wrap: break-word;
+
+                    transition: 0.1s ease-in-out;
 
                     &:hover {
                         cursor: pointer;
