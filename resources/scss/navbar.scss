@@ -100,4 +100,15 @@
             }
         }
     }
+    &-toggle_bar {
+        top: 50%;
+        right: 4%;
+        transform: translate(-0%, -50%);
+        border: none;
+        background-color: transparent;
+        i {
+            font-size: 30px;
+            color: $white;
+        }
+    }
 }

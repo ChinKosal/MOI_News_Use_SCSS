@@ -33,4 +33,7 @@
             </div>
         </div>
     </div>
+    <button class="header-toggle_bar absolute">
+        <i class="fa-solid fa-bars"></i>
+    </button>
 </header>
