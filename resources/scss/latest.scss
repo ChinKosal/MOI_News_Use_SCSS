@@ -229,9 +229,13 @@
                     }
                     button {
                         border: none;
-                        padding: 6px 8px;
+                        padding: 8px 10px;
                         background: transparent;
                         box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
                         span {
                             display: flex;
                             align-items: center;
