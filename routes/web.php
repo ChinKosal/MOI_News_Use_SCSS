@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [WebsiteController::class, 'Index'])->name('index');
+Route::get('/latest_news' , [WebsiteController::class, 'latest_news'])->name('latest_news');  

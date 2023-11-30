@@ -10,4 +10,8 @@ class WebsiteController extends Controller
     {
         return view('website.page1');
     }
+
+    public function latest_news(){
+        return view('website.latest_news');
+    }
 }

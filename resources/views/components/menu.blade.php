@@ -1,10 +1,10 @@
 <nav class="navbar  w-[100%] relative">
     <div class="navbar-container_navbar">
         <div class="navbar_item relative">
-                <a href="#" class="hover:bg-white hover:cursor-pointer text-white active_item">
+                <a href="{{ route('index') }}" class="hover:bg-white hover:cursor-pointer text-white active_item">
                     <li class="active_item-text_active">ទំព័រដើម</li>
                 </a>
-                <a href="#" class="hover:bg-white hover:cursor-pointer text-white">
+                <a href="{{ route('latest_news') }}" class="hover:bg-white hover:cursor-pointer text-white">
                     <li>ព័ត៌មានថ្មីបំផុត</li>
                 </a>
                 <a href="#" class="hover:bg-white hover:cursor-pointer text-white">
