@@ -33,7 +33,7 @@
 
                     <a href="#"><div class="sidebar_item">
                         <div class="image">
-                            <img src="https://moitv.phsartech.com/file_manager/Cover-77231b2d-8560-43d3-97c2-cd366ef900c3.jpeg" alt="">
+                            <img src="https://moitv.phsartech.com/file_manager/366076981_819842822836843_4891633483349699848_n-8ed49d9d-4ef6-47bb-a8b0-062ac6c59f81.jpg" alt="">
                         </div>
                         <div class="box_title">
                             <div class="text">
@@ -44,7 +44,7 @@
 
                     <a href="#"><div class="sidebar_item">
                         <div class="image">
-                            <img src="https://moitv.phsartech.com/file_manager/Cover-77231b2d-8560-43d3-97c2-cd366ef900c3.jpeg" alt="">
+                            <img src="https://moitv.phsartech.com/file_manager/366805887_819692229518569_1235941256301403869_n-42216590-bcb0-4ea7-aea9-5e1fbb518bb4.jpg" alt="">
                         </div>
                         <div class="box_title">
                             <div class="text">
@@ -231,10 +231,10 @@
                 <div class="pagination_wrapper">
                     <a href="#" class="pagination_item1 left disabled">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-left"><polyline points="11 17 6 12 11 7"></polyline><polyline points="18 17 13 12 18 7"></polyline></svg>
-                        <label>ថយក្រោយ</label>
+                        ថយក្រោយ
                     </a>
                     <a href="#" class="pagination_item2 right">
-                        <label>បន្ទាប់</label>
+                        បន្ទាប់
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-right"><polyline points="13 17 18 12 13 7"></polyline><polyline points="6 17 11 12 6 7"></polyline></svg>
                     </a>
                 </div>
