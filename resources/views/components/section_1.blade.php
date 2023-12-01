@@ -1,3 +1,4 @@
+
 <section class="w-[100%] FULL">
     <div class="FULL-container_section flex gap-5">
         <div class="lefe_side">

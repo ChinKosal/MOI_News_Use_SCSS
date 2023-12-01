@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('dialog', [WebsiteController::class, 'dialog'])->name('dialog');
 Route::get('/', [WebsiteController::class, 'Index'])->name('index');
 Route::get('/ព័ត៌មានថ្មីបំផុត', [WebsiteController::class, 'page2'])->name('page2');
 Route::get('/សារព័ត៌មានប្រចាំថ្ងៃ', [WebsiteController::class, 'page3'])->name('page3');

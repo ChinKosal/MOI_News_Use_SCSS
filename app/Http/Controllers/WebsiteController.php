@@ -25,4 +25,9 @@ class WebsiteController extends Controller
     {
         return view('website.action_news');
     }
+
+    public function dialog()
+    {
+        return view('welcome');
+    }
 }

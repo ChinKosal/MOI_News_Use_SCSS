@@ -22,7 +22,7 @@
                 <div class="sidebar_section">
                     <a href="#"><div class="sidebar_item">
                         <div class="image">
-                            <img src="https://moitv.phsartech.com/file_manager/Cover-77231b2d-8560-43d3-97c2-cd366ef900c3.jpeg" alt="">
+                            <img src="https://moitv.phsartech.com/file_manager/351318241_796497841757649_1685646811152152084_n-233671e8-9fd4-41d6-b8fa-024d2e87537a.jpg" alt="">
                         </div>
                         <div class="box_title">
                             <div class="text">

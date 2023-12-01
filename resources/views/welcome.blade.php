@@ -1,9 +1,3 @@
 @extends('layout.app')
 
-@section('menu')
-    
-@endsection
-
-@section('content')
-
-@endsection
+@include('components.popup_modal')
