@@ -15,4 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [WebsiteController::class, 'Index'])->name('index');
-Route::get('/latest_news' , [WebsiteController::class, 'latest_news'])->name('latest_news');  
+Route::get('/ព័ត៌មានថ្មីបំផុត', [WebsiteController::class, 'page2'])->name('page2');
+Route::get('/សារព័ត៌មានប្រចាំថ្ងៃ', [WebsiteController::class, 'page3'])->name('page3');
+Route::get('/សកម្មភាពថ្នាក់ដឹកនាំ', [WebsiteController::class, 'page4'])->name('page4');

@@ -4,14 +4,14 @@
                 <a class="{{ request()->routeIs('index') ? 'active_item' : '' }}" href="{{ route('index') }}">
                     <li class="{{ request()->routeIs('index') ? 'active' : '' }}">ទំព័រដើម</li>
                 </a>
-                <a  class="{{ request()->routeIs('latest_news') ? 'active_item' : '' }}" href="{{ route('latest_news') }}">
-                    <li  class="{{ request()->routeIs('latest_news') ? 'active' : '' }}">ព័ត៌មានថ្មីបំផុត</li>
+                <a  class="{{ request()->routeIs('page2') ? 'active_item' : '' }}" href="{{ route('page2') }}">
+                    <li  class="{{ request()->routeIs('page2') ? 'active' : '' }}">ព័ត៌មានថ្មីបំផុត</li>
                 </a>
-                <a href="#" class="hover:bg-white hover:cursor-pointer text-white">
-                    <li>សារព័ត៌មានប្រចាំថ្ងៃ</li>
+                <a   class="{{ request()->routeIs('page3') ? 'active_item' : '' }}" href="{{ route('page3') }}">
+                    <li  class="{{ request()->routeIs('page3') ? 'active' : '' }}">សារព័ត៌មានប្រចាំថ្ងៃ</li>
                 </a>
-                <a href="#" class="hover:bg-white hover:cursor-pointer text-white">
-                    <li>សកម្មភាពថ្នាក់ដឹកនាំ</li>
+                <a   class="{{ request()->routeIs('page4') ? 'active_item' : '' }}" href="{{ route('page4') }}">
+                    <li  class="{{ request()->routeIs('page4') ? 'active' : '' }}">សកម្មភាពថ្នាក់ដឹកនាំ</li>
                 </a>
                 <a href="#" class="hover:bg-white hover:cursor-pointer text-white">
                     <li>សន្តិសង្គម</li>

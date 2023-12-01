@@ -6,7 +6,7 @@
 @endsection
 
 @section('content')
-    @include('components.pages.latest_news.page')
+    @include('components.pages.page2.page')
     {{-- @include('components.latest_news.title') --}}
 @endsection
 

@@ -11,7 +11,18 @@ class WebsiteController extends Controller
         return view('website.page1');
     }
 
-    public function latest_news(){
+    public function page2()
+    {
         return view('website.latest_news');
+    }
+
+    public function page3()
+    {
+        return view('website.news_everyday');
+    }
+
+    public function page4()
+    {
+        return view('website.action_news');
     }
 }
