@@ -30,6 +30,7 @@ module.exports = {
                 Poppins: "Poppins, sans-serif",
                 Hanuman: "Hanuman, serif",
                 Moul: "Moul, cursive",
+                Kantumruy: "kantumruy Pro , serif",
                 poppinsAndHanuman: [
                     "Poppins",
                     "sans-serif",

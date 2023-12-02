@@ -59,7 +59,7 @@
 
         <div class="news_section2">
             <div class="title_news">
-                <p>ព័ត៌មានថ្មីបំផុត</p>
+                <p>សារព័ត៌មានប្រចាំថ្ងៃ</p>
             </div>
         </div>
 

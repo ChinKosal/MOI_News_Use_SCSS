@@ -1,5 +1,5 @@
 <section>
-    <div class="share_dialog">
+    <div class="hidden share_dialog" id="progress-modal" tabindex="-1" aria-hidden="true" >
         <div class="box_modal">
             <div class="header">
                 <p>ចែករំលែកទៅកាន់បណ្តាញសង្គម</p>
@@ -28,3 +28,4 @@
         </div>
     </div>
 </section>
+

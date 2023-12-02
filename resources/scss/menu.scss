@@ -70,21 +70,24 @@
                 right: 0;
                 width: 240px;
                 height: auto;
+                padding: 10px 0px;
                 overflow: hidden;
                 box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
                 z-index: 99;
 
-                .item_drop {
-                    padding: 5px 15px;
+                #item_drop {
+                    padding: 7px 15px;
                     color: $black-color;
                     font-size: 14px;
-                    transition: 0.1s ease-in-out;
-
+                    transition: 0.3s ease-in-out;
                     &:hover {
                         cursor: pointer;
                         margin-left: 5px;
                         color: $is_active;
                     }
+                }
+                .active_drop {
+                    color: $is_active !important;
                 }
             }
         }

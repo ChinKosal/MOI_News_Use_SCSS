@@ -1,37 +1,12 @@
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1407px) and (max-width: 1518px) {
+@media (min-width: 1201px) {
     .header {
         &-container_haeder {
             .media {
                 &-box_logo {
                     .logo {
-                        width: 20%;
-                        padding: 5px 0px;
-                    }
-                }
-            }
-        }
-    }
-
-    .navbar {
-        &-container_navbar {
-            .navbar_item {
-                a {
-                    font-size: 0.9rem;
-                }
-            }
-        }
-    }
-}
-
-@media (min-width: 1201px) and (max-width: 1406px) {
-    .header {
-        &-container_haeder {
-            .media {
-                &-box_logo {
-                    .logo {
-                        width: 20%;
-                        padding: 5px 0px;
+                        // width: 18% !important;
+                        // padding: 5px 0px;
                     }
                 }
             }
@@ -52,7 +27,7 @@
                 &-box_logo {
                     .logo {
                         width: 16%;
-                        padding: 10px 0px;
+                        padding: 5px 0px;
                     }
                 }
             }
@@ -134,7 +109,7 @@
             .media {
                 &-box_logo {
                     .logo {
-                        width: 23%;
+                        width: 20%;
                         padding: 5px 0px;
                     }
                 }
@@ -236,8 +211,18 @@
                 width: 100%;
                 margin-top: 15px;
                 .sidebar_section {
-                    display: flex;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
                 }
+            }
+        }
+    }
+
+    .container_empty {
+        width: 100% !important;
+        .empty_image_box {
+            .empty_image {
+                width: 50%;
             }
         }
     }
@@ -371,6 +356,15 @@
                 .sidebar_section {
                     display: flex;
                 }
+            }
+        }
+    }
+
+    .container_empty {
+        width: 100% !important;
+        .empty_image_box {
+            .empty_image {
+                width: 100%;
             }
         }
     }
@@ -563,6 +557,21 @@
                         line-height: 25px;
                     }
                 }
+            }
+        }
+    }
+
+    .container_empty {
+        width: 100% !important;
+        .empty_image_box {
+            padding: 25px;
+            .empty_image {
+                width: 100%;
+            }
+        }
+        .description_empty {
+            .text2 {
+                font-size: 1rem;
             }
         }
     }

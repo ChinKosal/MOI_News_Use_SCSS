@@ -1,7 +1,6 @@
 @extends('layout.app')
 
 @section('menu')
-{{-- @include('components.popup_modal') --}}
     @include('components.header')
     @include('components.menu')
 @endsection

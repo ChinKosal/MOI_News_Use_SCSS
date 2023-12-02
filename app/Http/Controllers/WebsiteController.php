@@ -25,6 +25,30 @@ class WebsiteController extends Controller
     {
         return view('website.action_news');
     }
+    public function page5()
+    {
+        return view('website.Security&Society');
+    }
+    public function page6()
+    {
+        return view('website.training');
+    }
+    public function page7()
+    {
+        return view('website.Kingdom&community');
+    }
+    public function page8()
+    {
+        return view('website.Fight&drugs');
+    }
+    public function page9()
+    {
+        return view('website.Order&traffic');
+    }
+    public function page10()
+    {
+        return view('website.Vetika&police');
+    }
 
     public function dialog()
     {
