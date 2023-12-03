@@ -50,6 +50,15 @@ class WebsiteController extends Controller
         return view('website.Vetika&police');
     }
 
+    public function page11()
+    {
+        return view('website.magazin');
+    }
+
+    public function page12()
+    {
+        return view('website.video');
+    }
     public function dialog()
     {
         return view('welcome');

@@ -78,6 +78,10 @@
         width: 100%;
         padding: 0px 15px;
     }
+    .container_magazin {
+        width: 100%;
+        padding: 0px 15px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -226,6 +230,23 @@
             }
         }
     }
+    .container_magazin {
+        width: 100%;
+        padding: 0px 15px;
+        .all_card {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .container_video {
+        width: 100%;
+        padding: 0px 15px;
+        .video_card {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -366,6 +387,14 @@
             .empty_image {
                 width: 100%;
             }
+        }
+    }
+    .container_video {
+        width: 100%;
+        .video_card {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
         }
     }
 }
@@ -572,6 +601,48 @@
         .description_empty {
             .text2 {
                 font-size: 1rem;
+            }
+        }
+    }
+    .container_magazin {
+        width: 100%;
+        .all_card {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            .card_magazin {
+                height: auto;
+                background-color: #fff;
+                box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
+                &:hover img {
+                    transform: scale(1.1);
+                }
+                .image_box {
+                    height: auto;
+                    img {
+                        transition: 0.5s all ease-in-out;
+                    }
+                }
+                .description_box {
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+    .container_video {
+        width: 100%;
+        .video_card {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            .card {
+                .description {
+                    padding: 20px 30px 20px 20px;
+                    .text1 {
+                        font-size: 1.2rem;
+                    }
+                }
             }
         }
     }

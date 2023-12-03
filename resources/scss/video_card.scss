@@ -1,0 +1,29 @@
+.container_video {
+    .video_card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        .card {
+            .img_box {
+                overflow: hidden;
+                &:hover img {
+                    transform: scale(1.1);
+                }
+                &:hover i {
+                    color: $secondary;
+                }
+                img {
+                    transition: 0.3s all ease-in-out;
+                }
+                .icon_video {
+                    i {
+                        transition: 0.3s all ease-in-out;
+                    }
+                }
+            }
+        }
+        &:hover .text1 {
+            text-decoration: underline;
+        }
+    }
+}
