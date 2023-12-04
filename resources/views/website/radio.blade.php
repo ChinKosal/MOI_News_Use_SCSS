@@ -6,8 +6,8 @@
 @endsection
 
 @section('content')
-    @include('components.titles.videoTitle')
-    @include('components.pages.videos.page')
+    @include('components.titles.radioTitle')
+    @include('components.pages.radios.page')
 @endsection
 
 @section('footer')

@@ -1,0 +1,11 @@
+.new_national {
+    .list_radio {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        .item {
+            background-color: #eee;
+            border: 1px solid #ccc;
+        }
+    }
+}

@@ -59,6 +59,12 @@ class WebsiteController extends Controller
     {
         return view('website.video');
     }
+
+    public function page13()
+    {
+        return view('website.radio');
+    }
+
     public function dialog()
     {
         return view('welcome');

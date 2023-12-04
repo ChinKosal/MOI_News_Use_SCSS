@@ -73,5 +73,18 @@
                 </div>
             </div>
     </div>
-    
+    <div class="pagination​ pt-8">
+        <div class="right w-fit m-auto shadow-sm">
+            <div class="wrapper​​​​ flex justify-center items-center gap-5">
+                <a class="item flex items-center justify-center gap-3 pt-3 pb-3 pl-6 pr-6 rounded-xl font-Kantumruy font-medium text-white text-base decoration-transparent" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-left"><polyline points="11 17 6 12 11 7"></polyline><polyline points="18 17 13 12 18 7"></polyline></svg>
+                    <span>ថយក្រោយ</span>
+                </a>
+                <a class="item flex items-center justify-center gap-3 pt-3 pb-3 pl-6 pr-6 rounded-xl font-Kantumruy font-medium text-white text-base decoration-transparent" href="#">
+                    <span>បន្ទាប់</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-right"><polyline points="13 17 18 12 13 7"></polyline><polyline points="6 17 11 12 6 7"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
