@@ -399,6 +399,14 @@
             }
         }
     }
+    .container_magazin {
+        width: 100%;
+        .all_card {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
+    }
     .container_video {
         width: 100%;
         .video_card {

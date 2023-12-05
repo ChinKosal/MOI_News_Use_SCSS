@@ -3,8 +3,10 @@
     height: 100%;
     position: fixed;
     top: 0;
-    left: 0;
+    right: -2000px;
     z-index: 999999999;
+
+    transition: right 0.3s ease-in-out;
     .sidebar {
         .lefeside {
             background: rgba(0, 0, 0, 0.44);
@@ -13,8 +15,8 @@
     }
     .rightside {
         .menu_content {
-            .search{
-                background-color:white   ;
+            .search {
+                background-color: white;
             }
             .menu​​ {
                 ul {

@@ -1,6 +1,7 @@
 @extends('layout.app')
 
 @section('menu')
+    @include('components.sidebar')
     @include('components.header')
     @include('components.menu')
 @endsection
@@ -12,5 +13,5 @@
 @endsection
 
 @section('footer')
-    @include('components.footer')   
+    @include('components.footer')
 @endsection
