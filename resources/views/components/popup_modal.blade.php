@@ -1,9 +1,9 @@
-<section>
-    <div class="hidden share_dialog" id="progress-modal" tabindex="-1" aria-hidden="true" >
+
+    <div class="hidden share_dialog" >
         <div class="box_modal">
             <div class="header">
                 <p>ចែករំលែកទៅកាន់បណ្តាញសង្គម</p>
-                <button><i class="fa-solid fa-xmark"></i></button>
+                <button data-modal-hide="default-modal"><i class="fa-solid fa-xmark"></i></button>
             </div>
             <p class="p1">ចែករំលែកតំណនេះតាម</p>
 
@@ -27,5 +27,4 @@
             </div>
         </div>
     </div>
-</section>
 
