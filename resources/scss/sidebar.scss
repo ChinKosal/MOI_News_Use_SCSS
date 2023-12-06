@@ -23,6 +23,18 @@
                     a {
                         border-bottom: 1px dotted
                             rgba(44, 96, 200, 0.2117647059);
+                        text-decoration: none;
+                        padding: 10px 4px;
+                        li {
+                            list-style: none;
+                            @include font_Moul;
+                            font-size: 1rem;
+                            line-height: 1.5rem;
+                            color: #000;
+                        }
+                        .active_sidebar {
+                            color: $danger-color;
+                        }
                     }
                 }
             }

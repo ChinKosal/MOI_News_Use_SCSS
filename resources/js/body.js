@@ -51,35 +51,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// modal
-document.addEventListener("DOMContentLoaded", function () {
-    // Get all buttons and modals
-    const showDialogButtons = document.querySelectorAll(".showDailog");
-    const closeDialogButtons = document.querySelectorAll(".closeDailog");
-    const shareDialogs = document.querySelectorAll(".share_dialog");
 
-    // Function to toggle the modal
-    function toggleModal(index) {
-        if (shareDialogs[index]) {
-            shareDialogs[index].style.display =
-                shareDialogs[index].style.display === "none" ||
-                shareDialogs[index].style.display === ""
-                    ? "block"
-                    : "none";
-        }
-    }
+// Get the modal element
+var modal = document.getElementById("sharedailog");
 
-    // Attach click event to all show dialog buttons
-    showDialogButtons.forEach((button, index) => {
-        button.addEventListener("click", () => toggleModal(index));
-    });
+// Function to toggle the display of the modal
+function toggleDialog() {
+    modal.style.display =
+        modal.style.display === "none" || modal.style.display === ""
+            ? "block"
+            : "none";
+}
 
-    // Attach click event to all close dialog buttons
-    closeDialogButtons.forEach((button, index) => {
-        button.addEventListener("click", () => {
-            if (shareDialogs[index]) {
-                shareDialogs[index].style.display = "none";
-            }
-        });
-    });
-});
+// Add an event listener to the button to trigger the toggleDialog function
+document.getElementById("showDailog").addEventListener("click", toggleDialog);
+document.getElementById("closeDailog").addEventListener("click", toggleDialog);

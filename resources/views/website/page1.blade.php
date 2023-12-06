@@ -1,5 +1,6 @@
 @extends('layout.app')
 @section('menu')
+    @include('components.popup_modal')
     @include('components.sidebar')
     @include('components.header')
     @include('components.menu')

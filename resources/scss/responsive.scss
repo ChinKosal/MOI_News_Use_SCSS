@@ -257,6 +257,14 @@
             gap: 20px;
         }
     }
+
+    .share_dialog {
+        .box_modal {
+            position: absolute;
+            top: 40%;
+            right: 23%;
+        }
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -423,6 +431,15 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
+        }
+    }
+
+    .share_dialog {
+        .box_modal {
+            position: absolute;
+            width: 320px;
+            top: 33%;
+            right: 15%;
         }
     }
 }
@@ -682,6 +699,30 @@
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 20px;
+        }
+    }
+
+    .share_dialog {
+        .box_modal {
+            position: absolute;
+            width: 320px;
+            top: 40%;
+            right: 9.4%;
+        }
+    }
+
+    .sidebar_container {
+        .lefeside {
+            width: 0%;
+        }
+        .rightside {
+            width: 100%;
+            overflow: unset;
+            .menu​​ {
+                a {
+                    padding: 10px 4px;
+                }
+            }
         }
     }
 }
