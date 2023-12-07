@@ -3,13 +3,13 @@
         <div class="lefeside fixd top-0 left-0 block w-[20%] h-full">
 
         </div>
-        <div class="rightside  w-[80%] h-full bg-white​  overflow-scroll">
+        <div class="rightside  w-[80%] h-full bg-white​ ">
             <div class="header_sidebar relative w-full h-[11.5%] bg-blue-900">
                 <button class="exit-toggle absolute top-3 left-3 bg-transparent border-transparent" id="exittoogle">
                     <i class="fa-solid fa-xmark text-4xl text-white"></i>
                 </button>
                 <div class="logo_box w-fit h-full m-auto p-3">
-                    <img class="w-full h-full object-cover" src="./assets/image/logo/website-logo.png" alt="">
+                    <img class="w-full h-full object-contain" src="./assets/image/logo/website-logo.png" alt="">
                 </div>
             </div>
             <div class="menu_content relative z-[999999] w-full h-[130vh]">

@@ -752,8 +752,13 @@
             width: 0%;
         }
         .rightside {
+            overflow-y: scroll;
             width: 100%;
-            overflow: unset;
+            .header_sidebar {
+                .logo_box {
+                    width: 30%;
+                }
+            }
             .menu​​ {
                 a {
                     padding: 10px 4px;
@@ -768,8 +773,8 @@
             flex-direction: column;
             .left_content {
                 width: 100%;
-                .socail_content{
-                    .box_socail{
+                .socail_content {
+                    .box_socail {
                         width: fit-content;
                         padding: 7px;
                     }
