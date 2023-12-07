@@ -50,19 +50,3 @@ document.addEventListener("DOMContentLoaded", function () {
         sidebarContainer.style.right = "-2000px";
     });
 });
-
-
-// Get the modal element
-var modal = document.getElementById("sharedailog");
-
-// Function to toggle the display of the modal
-function toggleDialog() {
-    modal.style.display =
-        modal.style.display === "none" || modal.style.display === ""
-            ? "block"
-            : "none";
-}
-
-// Add an event listener to the button to trigger the toggleDialog function
-document.getElementById("showDailog").addEventListener("click", toggleDialog);
-document.getElementById("closeDailog").addEventListener("click", toggleDialog);
