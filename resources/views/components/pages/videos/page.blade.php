@@ -2,7 +2,7 @@
     <div class="video_card w-[100%] h-auto ">
        <div class="card w-full h-full shadow-md">
             <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
-                <img class="w-full h-full object-cover" src="https://img.youtube.com/vi/Dv-ED_WtPME/0.jpg" alt="">
+                <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img7.jpg" alt="">
                 <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
                     <i class="fa-solid fa-circle-play text-6xl text-white"></i>
                 </div>
@@ -14,7 +14,7 @@
        </div>
        <div class="card w-full h-full shadow-md">
         <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
-            <img class="w-full h-full object-cover" src="https://img.youtube.com/vi/o7hl9ou71V0/0.jpg" alt="">
+            <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img6.jpg" alt="">
             <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
                 <i class="fa-solid fa-circle-play text-6xl text-white"></i>
             </div>
@@ -26,7 +26,7 @@
         </div>
         <div class="card w-full h-full shadow-md">
             <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
-                <img class="w-full h-full object-cover" src="https://img.youtube.com/vi/3u8jw89JF9Q/0.jpg" alt="">
+                <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img4.jpg" alt="">
                 <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
                     <i class="fa-solid fa-circle-play text-6xl text-white"></i>
                 </div>
@@ -38,7 +38,7 @@
             </div>
             <div class="card w-full h-full shadow-md">
                 <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
-                    <img class="w-full h-full object-cover" src="https://img.youtube.com/vi/xf1RLp9X19w/0.jpg" alt="">
+                    <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img4.jpg" alt="">
                     <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
                         <i class="fa-solid fa-circle-play text-6xl text-white"></i>
                     </div>
@@ -50,7 +50,7 @@
             </div>
             <div class="card w-full h-full shadow-md">
                 <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
-                    <img class="w-full h-full object-cover" src="https://img.youtube.com/vi/jHukqpV0WM0/0.jpg" alt="">
+                    <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img6.jpg" alt="">
                     <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
                         <i class="fa-solid fa-circle-play text-6xl text-white"></i>
                     </div>
@@ -62,7 +62,7 @@
             </div>
             <div class="card w-full h-full shadow-md">
                 <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
-                    <img class="w-full h-full object-cover" src="https://img.youtube.com/vi/Kclp0Z6brTo/0.jpg" alt="">
+                    <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img7.jpg" alt="">
                     <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
                         <i class="fa-solid fa-circle-play text-6xl text-white"></i>
                     </div>

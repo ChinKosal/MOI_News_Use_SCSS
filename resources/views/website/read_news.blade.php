@@ -1,15 +1,13 @@
 @extends('layout.app')
 
 @section('menu')
-    @include('components.video_popup')
     @include('components.sidebar')
     @include('components.header')
     @include('components.menu')
 @endsection
 
 @section('content')
-    @include('components.titles.videoTitle')
-    @include('components.pages.videos.page')
+    @include('components.read_news')
 @endsection
 
 @section('footer')

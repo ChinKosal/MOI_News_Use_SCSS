@@ -3,7 +3,7 @@
         <div class="news_section">
             <div class="item_left h-auto bg-yellow-500">
                 <div class="image w-[100%] h-[100%]">
-                    <img src="https://moitv.phsartech.com/file_manager/1(180)-a1906ab7-fb2e-4662-86f7-ad0d12438651.jpg" alt="">
+                    <img src="./assets/image/image_news/card_img6.jpg" alt="">
                 </div>
                 <div class="box_title">
                     <span>
@@ -12,7 +12,7 @@
                     </span>
                     <p>សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
                   <div class="btn_read_more">
-                    <a href="#">
+                    <a href="{{ route('ReadNews') }}">
                         អានបន្ថែម
                     </a>
                   </div>
@@ -22,7 +22,7 @@
                 <div class="sidebar_section">
                     <a href="#"><div class="sidebar_item">
                         <div class="image">
-                            <img src="https://moitv.phsartech.com/file_manager/351318241_796497841757649_1685646811152152084_n-233671e8-9fd4-41d6-b8fa-024d2e87537a.jpg" alt="">
+                            <img src="./assets/image/image_news/slider_img7.jpg" alt="">
                         </div>
                         <div class="box_title">
                             <div class="text">
@@ -33,7 +33,7 @@
 
                     <a href="#"><div class="sidebar_item">
                         <div class="image">
-                            <img src="https://moitv.phsartech.com/file_manager/366076981_819842822836843_4891633483349699848_n-8ed49d9d-4ef6-47bb-a8b0-062ac6c59f81.jpg" alt="">
+                            <img src="./assets/image/image_news/slider_img6.jpg" alt="">
                         </div>
                         <div class="box_title">
                             <div class="text">

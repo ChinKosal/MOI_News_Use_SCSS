@@ -65,8 +65,8 @@ class WebsiteController extends Controller
         return view('website.radio');
     }
 
-    public function dialog()
+    public function ReadNews()
     {
-        return view('welcome');
+        return view('website.read_news');
     }
 }

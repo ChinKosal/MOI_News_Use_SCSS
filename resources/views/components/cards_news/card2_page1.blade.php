@@ -4,10 +4,10 @@
     <div class="full_card-container" id="get_item">
         <div class="card">
             <div class="box_img">
-                <a href="#"> <img src="./assets/image/image_news/card_img1.jpg" alt=""></a>
+                <a href="{{ route('ReadNews') }}"> <img src="./assets/image/image_news/card_img1.jpg" alt=""></a>
             </div>
             <div class="box_title">
-                <a href="#">
+                <a href="{{ route('ReadNews') }}">
                     <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី
                         និងចម្រើនព្រះបរិត្ត
                         អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
@@ -32,10 +32,11 @@
 
         <div class="card">
             <div class="box_img">
-                <a href="#"> <img src="./assets/image/image_news/card_img8.jpg" alt=""></a>
+                <a href="{{ route('ReadNews') }}"> <img src="./assets/image/image_news/card_img8.jpg"
+                        alt=""></a>
             </div>
             <div class="box_title">
-                <a href="#">
+                <a href="{{ route('ReadNews') }}">
                     <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី
                         និងចម្រើនព្រះបរិត្ត
                         អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
@@ -60,10 +61,11 @@
 
         <div class="card">
             <div class="box_img">
-                <a href="#"> <img src="./assets/image/image_news/card_img9.jpg" alt=""></a>
+                <a href="{{ route('ReadNews') }}"> <img src="./assets/image/image_news/card_img9.jpg"
+                        alt=""></a>
             </div>
             <div class="box_title">
-                <a href="#">
+                <a href="{{ route('ReadNews') }}">
                     <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី
                         និងចម្រើនព្រះបរិត្ត
                         អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
@@ -88,10 +90,11 @@
 
         <div class="card">
             <div class="box_img">
-                <a href="#"> <img src="./assets/image/image_news/card_img10.png" alt=""></a>
+                <a href="{{ route('ReadNews') }}"> <img src="./assets/image/image_news/card_img10.png"
+                        alt=""></a>
             </div>
             <div class="box_title">
-                <a href="#">
+                <a href="{{ route('ReadNews') }}">
                     <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី
                         និងចម្រើនព្រះបរិត្ត
                         អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
@@ -116,10 +119,11 @@
 
         <div class="card">
             <div class="box_img">
-                <a href="#"> <img src="./assets/image/image_news/card_img11.png" alt=""></a>
+                <a href="{{ route('ReadNews') }}"> <img src="./assets/image/image_news/card_img11.png"
+                        alt=""></a>
             </div>
             <div class="box_title">
-                <a href="#">
+                <a href="{{ route('ReadNews') }}">
                     <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី
                         និងចម្រើនព្រះបរិត្ត
                         អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>
@@ -144,10 +148,11 @@
 
         <div class="card">
             <div class="box_img">
-                <a href="#"> <img src="./assets/image/image_news/card_img12.png" alt=""></a>
+                <a href="{{ route('ReadNews') }}"> <img src="./assets/image/image_news/card_img12.png"
+                        alt=""></a>
             </div>
             <div class="box_title">
-                <a href="#">
+                <a href="{{ route('ReadNews') }}">
                     <p class="txt1">សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី
                         និងចម្រើនព្រះបរិត្ត
                         អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ</p>

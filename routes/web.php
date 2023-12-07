@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('dialog', [WebsiteController::class, 'dialog'])->name('dialog');
 Route::get('/', [WebsiteController::class, 'Index'])->name('index');
 Route::get('/ព័ត៌មានថ្មីបំផុត', [WebsiteController::class, 'page2'])->name('page2');
 Route::get('/សារព័ត៌មានប្រចាំថ្ងៃ', [WebsiteController::class, 'page3'])->name('page3');
@@ -28,3 +27,4 @@ Route::get('/វេទិការនិងនគរបាល', [WebsiteControll
 Route::get('/ទស្សនាវដ្តី', [WebsiteController::class, 'page11'])->name('page11');
 Route::get('/វីដេអូ', [WebsiteController::class, 'page12'])->name('page12');
 Route::get('/វិទ្យុ', [WebsiteController::class, 'page13'])->name('page13');
+Route::get('អានបន្ថែម', [WebsiteController::class, 'ReadNews'])->name('ReadNews');
