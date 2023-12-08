@@ -28,3 +28,4 @@ Route::get('/ទស្សនាវដ្តី', [WebsiteController::class, 'pag
 Route::get('/វីដេអូ', [WebsiteController::class, 'page12'])->name('page12');
 Route::get('/វិទ្យុ', [WebsiteController::class, 'page13'])->name('page13');
 Route::get('អានបន្ថែម', [WebsiteController::class, 'ReadNews'])->name('ReadNews');
+Route::get('/test', [WebsiteController::class, 'test'])->name('test');

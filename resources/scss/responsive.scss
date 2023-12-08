@@ -141,14 +141,18 @@
             width: 100%;
             height: 450px;
             padding: 0px 15px;
-            .lefe_side {
+            .swiper1 {
                 width: 100%;
-                &-image {
-                    padding: 0px 6px;
-                }
-                &-image_title {
-                    .description {
-                        font-size: 21px;
+                .lefe_side {
+                    width: 100%;
+                    &-image {
+                        padding: 0px 6px;
+                    }
+                    &-image_title {
+                        padding: 20px 20px 20px 20px;
+                        .description {
+                            font-size: 21px;
+                        }
                     }
                 }
             }
@@ -258,14 +262,6 @@
         }
     }
 
-    .share_dialog {
-        .box_modal {
-            position: absolute;
-            top: 40%;
-            right: 23%;
-        }
-    }
-
     .read_news {
         width: 100%;
         padding: 0px 15px;
@@ -280,6 +276,20 @@
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                 }
+            }
+        }
+    }
+
+    .video_popup {
+        padding: 10px;
+        .modal_box {
+            width: 73%;
+            margin: auto;
+            .modal {
+                height: 380px;
+                width: 100%;
+                right: 0;
+                top: 20%;
             }
         }
     }
@@ -342,10 +352,13 @@
             width: 100%;
             height: 380px;
             padding: 0px 15px;
-            .lefe_side {
+            .swiper1 {
                 width: 100%;
-                &-image {
-                    padding: 0px 0px;
+                .lefe_side {
+                    width: 100%;
+                    &-image {
+                        padding: 0px 0px;
+                    }
                 }
             }
             .right_side {
@@ -452,15 +465,6 @@
         }
     }
 
-    .share_dialog {
-        .box_modal {
-            position: absolute;
-            width: 320px;
-            top: 33%;
-            right: 15%;
-        }
-    }
-
     .read_news {
         width: 100%;
         padding: 0px 15px;
@@ -475,6 +479,18 @@
                     display: grid;
                     grid-template-columns: repeat(2, 1fr);
                 }
+            }
+        }
+    }
+
+    .video_popup {
+        padding: 10px;
+        .modal_box {
+            .modal {
+                height: 220px;
+                width: 100%;
+                right: 0;
+                top: 30%;
             }
         }
     }
@@ -535,22 +551,25 @@
             width: 100%;
             height: 300px;
             padding: 0px 0px;
-            .lefe_side {
+            .swiper1 {
                 width: 100%;
-                &-image {
-                    padding: 0px 0px;
-                }
-                &-image_title {
-                    padding: 0px 10px;
-                    .description {
-                        padding-top: 60px;
-                        font-size: 16px;
-                        line-height: 23px;
+                .lefe_side {
+                    width: 100%;
+                    &-image {
+                        padding: 0px 0px;
                     }
-                    .date {
-                        padding-top: 8px;
-                        span {
-                            font-size: 13px;
+                    &-image_title {
+                        padding: 0px 10px;
+                        .description {
+                            padding-top: 60px;
+                            font-size: 16px;
+                            line-height: 23px;
+                        }
+                        .date {
+                            padding-top: 8px;
+                            span {
+                                font-size: 13px;
+                            }
                         }
                     }
                 }
@@ -622,6 +641,7 @@
         .news_section {
             display: flex;
             flex-direction: column;
+
             .item_left {
                 width: 100%;
             }
@@ -743,7 +763,6 @@
             position: absolute;
             width: 320px;
             top: 40%;
-            right: 9.4%;
         }
     }
 
@@ -786,6 +805,18 @@
                     display: grid;
                     grid-template-columns: repeat(1, 1fr);
                 }
+            }
+        }
+    }
+
+    .video_popup {
+        padding: 10px;
+        .modal_box {
+            .modal {
+                height: 220px;
+                width: 100%;
+                right: 0;
+                top: 30%;
             }
         }
     }

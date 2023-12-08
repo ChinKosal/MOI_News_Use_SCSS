@@ -11,12 +11,11 @@
     overflow: hidden;
     z-index: 999999;
     transition: 0.3s all ease-in-out;
-    display: none;
     .box_modal {
         position: absolute;
         top: 50%;
-        right: 39.5%;
-        transform: translate(-0%, -50%);
+        right: 50%;
+        transform: translate(50%, -50%);
         width: 400px;
         height: auto;
         border-radius: 20px;

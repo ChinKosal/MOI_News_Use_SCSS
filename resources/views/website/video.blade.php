@@ -1,7 +1,6 @@
 @extends('layout.app')
 
 @section('menu')
-    @include('components.video_popup')
     @include('components.sidebar')
     @include('components.header')
     @include('components.menu')

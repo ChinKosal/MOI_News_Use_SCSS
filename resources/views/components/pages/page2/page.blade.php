@@ -1,3 +1,4 @@
+@include('components.popup_modal')
 <section>
     <div class="container_news">
         <div class="news_section">
@@ -110,7 +111,7 @@
                             </svg>
                             ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣
                         </span>
-                        <button>
+                        <button class="showShareDailogBtn">
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -163,7 +164,7 @@
                             </svg>
                             ថ្ងៃព្រហស្បតិ៍ ទី១៧ ខែសីហា ឆ្នាំ២០២៣
                         </span>
-                        <button>
+                        <button class="showShareDailogBtn">
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -216,3 +217,31 @@
         </div>
     </div>
 </section>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+
+        // popup share dailog
+        var button2 = document.querySelectorAll(".showShareDailogBtn");
+        var closePopupBtn2 = document.getElementById("closeShareBtn");
+
+        button2.forEach(function(button) {
+            button.addEventListener("click", function() {
+                // Get the video popup element
+                var sharePopup = document.querySelector(".dailog_popup");
+
+                // Toggle the 'hidden' class to show/hide the popup
+                sharePopup.classList.toggle("hidden");
+            });
+        });
+
+        // JavaScript to handle the close button click event
+        closePopupBtn2.addEventListener("click", function() {
+            // Get the video popup element
+            var sharePopup = document.querySelector(".dailog_popup");
+
+            // Hide the popup
+            sharePopup.classList.add("hidden");
+        });
+        // finish popup share dailog
+    });
+</script>

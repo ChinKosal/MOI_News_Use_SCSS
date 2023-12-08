@@ -69,4 +69,8 @@ class WebsiteController extends Controller
     {
         return view('website.read_news');
     }
+    public function test()
+    {
+        return view('index');
+    }
 }

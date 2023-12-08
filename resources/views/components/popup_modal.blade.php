@@ -1,8 +1,8 @@
-<div class="share_dialog" id="sharedailog">
+<div class="hidden share_dialog dailog_popup">
     <div class="box_modal">
         <div class="header_sidebar">
             <p>ចែករំលែកទៅកាន់បណ្តាញសង្គម</p>
-            <button id="closeDailog"><i class="fa-solid fa-xmark closeDailog"></i></button>
+            <button id="closeShareBtn"><i class="fa-solid fa-xmark closeDailog"></i></button>
         </div>
         <p class="p1">ចែករំលែកតំណនេះតាម</p>
 

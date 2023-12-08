@@ -1,6 +1,6 @@
 <section class="w-[100%] flex items-center justify-center pt-10 pb-5">
     <div class="btn_more">
-        <button class="btn_more-btn">
+        <button class="btn_more-btn drop-shadow-md">
             <p class="txt">មានច្រើនទៀត</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 1024 1024">
                 <path fill="currentColor"
