@@ -214,9 +214,11 @@
             .addEventListener("click", function() {
                 swiper.slidePrev();
             });
-        // Function to change the image source and update button styles
-        function changeImage(imageId, buttonId) {
+        // Function to change the image source, description, and date
+        function changeContent(imageId, description, date, buttonId) {
             var imageElement = document.querySelector('.lefe_side-image img');
+            var descriptionElement = document.querySelector('.description p');
+            var dateElement = document.querySelector('.from-neutral-500');
             var imagePath =
                 `./assets/image/image_news/${imageId}.jpg`; // Change 'jpg' to the actual image format
 
@@ -225,6 +227,20 @@
                 imageElement.src = imagePath;
             } else {
                 console.error("Image element not found");
+            }
+
+            // Change the description
+            if (descriptionElement) {
+                descriptionElement.textContent = description;
+            } else {
+                console.error("Description element not found");
+            }
+
+            // Change the date
+            if (dateElement) {
+                dateElement.textContent = date;
+            } else {
+                console.error("Date element not found");
             }
 
             // Remove 'active' class from all buttons
@@ -241,26 +257,35 @@
             }
         }
 
-
         // Add event listeners for each button
         document.getElementById('change1').addEventListener('click', function() {
-            changeImage('section_img1', 'change1');
+            changeContent('section_img1',
+                'ឯកឧត្តមអភិសន្តិបណ្ឌិត ស សុខា អញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់ ដឹកនាំកិច្ចប្រជុំត្រួតពិនិត្យការងារត្រៀមរៀបចំពិធីសម្ពោធអគារទីស្តីការថ្មីរបស់ក្រសួងមហាផ្ទៃ',
+                'ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣', 'change1');
         });
 
         document.getElementById('change2').addEventListener('click', function() {
-            changeImage('section_img2', 'change2');
+            changeContent('section_img2',
+                'ឯកឧត្តម ឧត្តមសេនីយ៍ឯក ជុក គឹមហួរ អញ្ជើញជាអធិបតីភាពដ៏ខ្ពង់ខ្ពស់ក្នុង​ពិធីប្រកាសបិទ សវនកម្ម ការិយបរិច្ឆេទ ២០​២២ និងបណ្ដាឆ្នាំពាក់ព័ន្ធនៅស្នងការដ្ឋាននគរបាលខេត្តមណ្ឌលគិរី',
+                'ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣', 'change2');
         });
 
         document.getElementById('change3').addEventListener('click', function() {
-            changeImage('section_img3', 'change3');
+            changeContent('section_img3',
+                'ឯកឧត្តម សំរិទ្ធ ឌី តំណាងដ៏ខ្ពង់ខ្ពស់ ឯកឧត្តម អភិសន្តិបណ្ឌិត ស សុខា ឧបនាយករដ្ឋមន្ត្រី រដ្ឋមន្ត្រីក្រសួងមហាផ្ទៃ ចុះសំណេះសំណាលសួរសុខទុក្ខកងកម្លាំងការពារព្រំដែនទិសភូមិភាភ២ ក្នុងឱកាសបុណ្យភ្នំបិណ្ឌ',
+                'ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣', 'change3');
         });
 
         document.getElementById('change4').addEventListener('click', function() {
-            changeImage('section_img4', 'change4');
+            changeContent('section_img4',
+                'សម្ដេចក្រឡាហោម ស ខេង និងលោកជំទាវ អញ្ជើញជាអធិបតីក្នុងពិធីក្រុងពាលី និងចម្រើនព្រះបរិត្ត អគារទីស្ដីការថ្មី នៃក្រសួងមហាផ្ទៃ',
+                'ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣', 'change4');
         });
 
         document.getElementById('change5').addEventListener('click', function() {
-            changeImage('section_img5', 'change5');
+            changeContent('section_img5',
+                'សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញជាអធិបតីក្នុងពិធីសម្ពោធដាក់ឲ្យប្រើប្រាស់ជាផ្លូវការវិមានឯករាជ្យ សួនសម្ដេចក្រឡាហោម វិមានឯករាជ្យ សួនធ្នង់៥៣ និងផ្លូវចាក់កៅស៊ូបេទីម នៅបរិវេណវិមានឯករាជ្យ ស្ថិតនៅក្រុងបាត់ដំបង ខេត្តបាត់ដំបង។',
+                'ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣', 'change5');
         });
     });
 </script>
