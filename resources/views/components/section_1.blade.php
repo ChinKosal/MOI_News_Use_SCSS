@@ -5,13 +5,17 @@
                 <div class="swiper-slider w-full h-full">
                     <div class="lefe_side">
                         <div class="lefe_side-image">
-                            <img src="./assets/image/image_news/section_img1.jpg" alt="">
+                            <a href="{{ route('ReadNews') }}"><img src="./assets/image/image_news/section_img1.jpg"
+                                    alt=""></a>
                         </div>
                         <div class="w-full  lefe_side-image_title">
                             <div class="description font-Hanuman text-white">
-                                <p>ឯកឧត្តម ឧត្តមសេនីយ៍ឯក ជុក គឹមហួរ អញ្ជើញជាអធិបតីភាពដ៏ខ្ពង់ខ្ពស់ក្នុង​ពិធីប្រកាសបិទ
-                                    សវនកម្ម ការិយបរិច្ឆេទ ២០​២២ និងបណ្ដាឆ្នាំពាក់ព័ន្ធនៅស្នងការដ្ឋាននគរបាលខេត្តមណ្ឌលគិរី
-                                </p>
+                                <a href="{{ route('ReadNews') }}" class="decoration-transparent text-white ">
+                                    <p>ឯកឧត្តម ឧត្តមសេនីយ៍ឯក ជុក គឹមហួរ អញ្ជើញជាអធិបតីភាពដ៏ខ្ពង់ខ្ពស់ក្នុង​ពិធីប្រកាសបិទ
+                                        សវនកម្ម ការិយបរិច្ឆេទ ២០​២២
+                                        និងបណ្ដាឆ្នាំពាក់ព័ន្ធនៅស្នងការដ្ឋាននគរបាលខេត្តមណ្ឌលគិរី
+                                    </p>
+                                </a>
                             </div>
                             <div class="date flex align-middle">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -27,7 +31,7 @@
             </div>
             <div class="absolute bottom-0 z-[100] icon_change flex justify-center items-center gap-2">
 
-                <button id="change1" class="border-none bg-transparent hover:cursor-pointer">
+                <button id="change1" class="border-none  bg-transparent hover:cursor-pointer">
                     <div class="icon_change-icon">
                     </div>
                 </button>
@@ -214,6 +218,8 @@
             .addEventListener("click", function() {
                 swiper.slidePrev();
             });
+        // finish swiper 
+
         // Function to change the image source, description, and date
         function changeContent(imageId, description, date, buttonId) {
             var imageElement = document.querySelector('.lefe_side-image img');
@@ -244,14 +250,14 @@
             }
 
             // Remove 'active' class from all buttons
-            document.querySelectorAll('.icon_change-icon').forEach(function(button) {
-                button.classList.remove('active');
+            document.querySelectorAll('.icon_change-icon').forEach(function(buttonIcon) {
+                buttonIcon.classList.remove('active');
             });
 
             // Add 'active' class to the clicked button
             var clickedButton = document.getElementById(buttonId);
             if (clickedButton) {
-                clickedButton.classList.add('active');
+                clickedButton.querySelector('.icon_change-icon').classList.add('active');
             } else {
                 console.error("Button element not found");
             }
@@ -262,6 +268,7 @@
             changeContent('section_img1',
                 'ឯកឧត្តមអភិសន្តិបណ្ឌិត ស សុខា អញ្ជើញជាអធិបតីដ៏ខ្ពង់ខ្ពស់ ដឹកនាំកិច្ចប្រជុំត្រួតពិនិត្យការងារត្រៀមរៀបចំពិធីសម្ពោធអគារទីស្តីការថ្មីរបស់ក្រសួងមហាផ្ទៃ',
                 'ថ្ងៃសៅរ៍ ទី៧ ខែតុលា ឆ្នាំ២០២៣', 'change1');
+
         });
 
         document.getElementById('change2').addEventListener('click', function() {

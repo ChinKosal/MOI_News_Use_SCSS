@@ -5,7 +5,7 @@
             <i class="fa-solid fa-xmark text-4xl text-white hover:cursor-pointer"></i>
         </div>
         <div class="modal absolute top-[15.5%] right-[15%] w-[70%] h-[750px] rounded-3xl overflow-hidden bg-yellow-500">
-            <iframe class="w-full h-full" src="https://www.youtube.com/embed/o7hl9ou71V0"
+            <iframe class="w-full  h-full" src="https://www.youtube.com/embed/o7hl9ou71V0"
                 title="សម្ដេចក្រឡាហោម ស ខេង អញ្ជើញសម្ពោធសមិទ្ធផលនានា និងបិទវគ្គបណ្ដុះបណ្ដាលកម្រិតបឋមវិជ្ជាជីវៈនគរបាល..."
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

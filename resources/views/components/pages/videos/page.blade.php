@@ -2,7 +2,7 @@
 
 <div class="container_video w-[70%] m-auto">
     <div class="video_card w-[100%] h-auto ">
-        <div class="card card1 w-full h-full shadow-sm showVideoBtn">
+        <div class="card  w-full h-full shadow-sm bg-white showVideoBtn">
             <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
                 <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img7.jpg" alt="">
                 <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
@@ -17,7 +17,7 @@
                     ឆ្នាំ២០២៣</p>
             </div>
         </div>
-        <div class="card card2 w-full h-full shadow-sm showVideoBtn">
+        <div class="card  w-full h-full shadow-sm bg-white showVideoBtn">
             <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
                 <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img6.jpg" alt="">
                 <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
@@ -32,7 +32,7 @@
                     ឆ្នាំ២០២៣</p>
             </div>
         </div>
-        <div class="card card3 w-full h-full shadow- sm showVideoBtn">
+        <div class="card  w-full h-full shadow- sm bg-white showVideoBtn">
             <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
                 <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img4.jpg" alt="">
                 <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
@@ -47,7 +47,7 @@
                     ឆ្នាំ២០២៣</p>
             </div>
         </div>
-        <div class="card card4 w-full h-full shadow-sm showVideoBtn">
+        <div class="card  w-full h-full shadow-sm bg-white showVideoBtn">
             <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
                 <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img4.jpg" alt="">
                 <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
@@ -62,7 +62,7 @@
                     ឆ្នាំ២០២៣</p>
             </div>
         </div>
-        <div class="card card5 w-full h-full shadow-sm showVideoBtn">
+        <div class="card  w-full h-full shadow-sm bg-white showVideoBtn">
             <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
                 <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img6.jpg" alt="">
                 <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
@@ -77,7 +77,7 @@
                     ឆ្នាំ២០២៣</p>
             </div>
         </div>
-        <div class="card card6 w-full h-full shadow-sm showVideoBtn">
+        <div class="card  w-full h-full shadow-sm bg-white showVideoBtn">
             <div class="img_box w-full h-[60%] relative hover:cursor-pointer">
                 <img class="w-full h-full object-cover" src="./assets/image/image_news/slider_img7.jpg" alt="">
                 <div class="icon_video absolute top-[50%] right-[40%] translate-y-[-50%]">
@@ -93,8 +93,8 @@
             </div>
         </div>
     </div>
-    <div class="pagination​ pt-8">
-        <div class="right w-fit m-auto shadow-sm">
+    <div class="pagination​ pt-8 ">
+        <div class="right w-fit m-auto shadow-md">
             <div class="wrapper​​​​ flex justify-center items-center gap-5">
                 <a class="item flex items-center justify-center gap-3 pt-3 pb-3 pl-6 pr-6 rounded-xl font-Kantumruy font-medium text-white text-base decoration-transparent"
                     href="#">

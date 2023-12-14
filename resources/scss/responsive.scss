@@ -82,6 +82,19 @@
         width: 100%;
         padding: 0px 15px;
     }
+    .read_news {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .video_popup {
+        padding: 10px;
+        .modal_box {
+            .modal {
+                height: 600px;
+            }
+        }
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
